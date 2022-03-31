@@ -43,7 +43,17 @@ a:link {
 
 a:hover {
   text-decoration: underline;
-  font-style: bold;
+  color: rgb(29, 121, 197);
+}
+
+a:active {
+  color: royalblue;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
 }
 
 a.top-link {
@@ -146,13 +156,14 @@ a.top-link {
 
 .main-content {
   display: grid;
-  grid-template-columns: 350px 350px 350px 350px 350px;
+  grid-template-columns: 350px 350px 350px 350px;
   grid-template-rows: 500px;
   overflow: scroll;
   gap: 30px;
   margin-bottom: 20px;
   align-content: center;
-  height: 600px;
+  text-align: center;
+  height: 550px;
   width: 100%;
 }
 
@@ -162,42 +173,56 @@ a.top-link {
   overflow: hidden;
   background-color: white;
   border: black 3px solid;
-  padding: 30px;
-  text-align: center;
+  padding: 20px;
 }
 
 .profile-pic {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 220px;
+  max-width: 220px;
   margin: 35px;
 }
 
-/*EXHIBITS 1-4*/
+/*EXHIBIT 1*/
 
 .exhibit-1 {
   overflow: auto;
   background-color: white;
   border: black 3px solid;
-  padding: 30px;
+  padding: 20px;
 }
+
+.text-adventure {
+  max-height: 220px;
+  max-width: 220px;
+  margin: 35px;
+}
+
+/*EXHIBIT 2*/
 
 .exhibit-2 {
   overflow: auto;
   background-color: white;
   border: black 3px solid;
-  padding: 30px;
+  padding: 20px;
 }
+
+.website {
+  max-height: 220px;
+  max-width: 220px;
+  margin: 35px;
+}
+
+/*EXHIBIT 3*/
 
 .exhibit-3 {
   overflow: auto;
   background-color: white;
   border: black 3px solid;
-  padding: 30px;
+  padding: 20px;
 }
 
-.exhibit-4 {
-  overflow: auto;
-  background-color: white;
-  border: black 3px solid;
-  padding: 30px;
+.HHHH {
+  max-height: 220px;
+  max-width: 220px;
+  margin: 35px;
 }
