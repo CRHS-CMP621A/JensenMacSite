@@ -31,6 +31,10 @@ footer {
 
 /*LINKS*/
 
+a.exhibit-1 {
+  color: blue;
+}
+
 .top-link {
   background-color: black;
   color: white;
@@ -177,9 +181,11 @@ a.top-link {
 }
 
 .profile-pic {
-  max-height: 220px;
-  max-width: 220px;
+  height: 180px;
+  width: 240px;
   margin: 35px;
+  padding: 5px;
+  margin: 20px;
 }
 
 /*EXHIBIT 1*/
@@ -192,9 +198,11 @@ a.top-link {
 }
 
 .text-adventure {
-  max-height: 220px;
-  max-width: 220px;
+  height: 180px;
+  width: 240px;
   margin: 35px;
+  padding: 5px;
+  margin: 20px;
 }
 
 /*EXHIBIT 2*/
@@ -207,9 +215,11 @@ a.top-link {
 }
 
 .website {
-  max-height: 220px;
-  max-width: 220px;
+  height: 180px;
+  width: 240px;
   margin: 35px;
+  padding: 5px;
+  margin: 20px;
 }
 
 /*EXHIBIT 3*/
@@ -222,7 +232,19 @@ a.top-link {
 }
 
 .HHHH {
-  max-height: 220px;
-  max-width: 220px;
+  height: 180px;
+  width: 240px;
   margin: 35px;
+  padding: 5px;
+  margin: 20px;
+}
+
+/*MY INTERESTS PAGE*/
+
+/*FILLER PARAGRAPH*/
+.interests-p1 {
+  overflow: hidden;
+  background-color: white;
+  border: black 3px solid;
+  padding: 20px;
 }
